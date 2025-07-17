@@ -7,15 +7,5 @@ const axiosInstance = axios.create({
   baseURL: process.env.REACT_APP_DOMAIN,
 });
 
-axiosInstance.interceptors.request.use(interceptor, networkError);
-function interceptor(config) {
-  config.data['Client_Id'] = localStorage.getItem('clientID');
-  config.data['Domain_Id'] = localStorage.getItem('domainID');
-  return config;
-}
-
-function networkError(error) {
-  return Promise.reject(error);
-}
 
 export default axiosInstance;

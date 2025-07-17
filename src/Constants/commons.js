@@ -41,4 +41,9 @@ export const MENU = [
     linkText: 'system-attribute',
     Icon: Fingerprint,
   },
+  {
+    displayText: 'Pivot',
+    linkText: 'pivot',
+    Icon: Fingerprint,
+  },
 ];

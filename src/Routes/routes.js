@@ -10,6 +10,8 @@ import LoginPage from '../Components/Pages/Login/Login.jsx';
 import Organisation from '../Components/Pages/Organisation/Organisation.jsx';
 import AddUser from '../Components/Pages/AddUser/AddUser.jsx';
 import SystemAttribute from '../Components/Pages/SystemAttribute/SystemAttribute.jsx';
+import Pivot from '../Components/Pages/Work/Pivot.jsx';
+
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -18,8 +20,10 @@ const router = createBrowserRouter(
         <Route path="/organisation" element={<Organisation />} />
         <Route path="/add-user" element={<AddUser />} />
         <Route path="/system-attribute" element={<SystemAttribute />} />
+         <Route path="/pivot" element={<Pivot />} />
       </Route>
       <Route path="/login" element={<LoginPage />} />
+     
     </>
   )
 );
