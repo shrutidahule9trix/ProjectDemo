@@ -46,4 +46,51 @@ export const MENU = [
     linkText: 'pivot',
     Icon: Fingerprint,
   },
+  
+   
 ];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// export const MENU = [
+//   { displayText: 'Organisation', linkText: 'organisation', Icon: Group },
+//   { displayText: 'Add User', linkText: 'add-user', Icon: PersonAdd },
+//   {
+//     displayText: 'System Attribute',
+//     linkText: 'system-attribute',
+//     Icon: Fingerprint,
+//   },
+//   {
+//     displayText: 'Pivot',
+//     linkText: 'pivot',
+//     Icon: Fingerprint,
+//     subMenu: [
+//       { displayText: 'Pivot Table', linkText: 'pivot/pivot-table' },
+//       { displayText: 'Pivot UI', linkText: 'pivot/pivot-ui' },
+//       { displayText: 'Plotly Renderers', linkText: 'pivot/plotly-render' },
+//       { displayText: 'Utilities', linkText: 'pivot/utilities' },
+//     ],
+//   },
+// ];
