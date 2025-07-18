@@ -46,7 +46,7 @@ export const MENU = [
     linkText: 'pivot',
     Icon: Fingerprint,
   },
-  
+ 
    
 ];
 

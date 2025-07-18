@@ -22,6 +22,9 @@ const router = createBrowserRouter(
         <Route path="add-user" element={<AddUser />} />
         <Route path="system-attribute" element={<SystemAttribute />} />
         <Route path="pivot" element={<PivotPage />}/>
+                
+
+
         </Route>
       
 
