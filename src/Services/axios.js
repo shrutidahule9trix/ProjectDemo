@@ -1,11 +1,9 @@
-/** @format */
-
 import axios from 'axios';
 
 const axiosInstance = axios.create({
-  // eslint-disable-next-line no-undef
-  baseURL: process.env.REACT_APP_DOMAIN,
-});
-
+  baseURL: "http://localhost:5000", 
+});       
 
 export default axiosInstance;
+
+

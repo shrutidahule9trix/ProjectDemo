@@ -1,13 +1,14 @@
 import axiosInstance from "./axios";
 
-// Fetch todo data
-export const fetchTodoData = async () => {
+export const fetchPivotTable = async () => {
   try {
-    const response = await axiosInstance.get("/todos/1");
-    console.log("API Response:", response.data); 
+    const response = await axiosInstance.get("/table");
+    console.log("API Response:", response.data);
     return response.data;
   } catch (error) {
-    console.error("Error fetching todo:", error);
-    return null;
+    console.error("Error fetching pivot data:", error);
+    return []; 
   }
 };
+
+                     
