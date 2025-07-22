@@ -11,7 +11,6 @@ import { THEMES } from './Constants/commons';
 
 function App() {
   const { activeTheme } = useGlobalContext();
-
   const light = createTheme({
     palette: {
       mode: 'light',

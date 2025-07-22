@@ -46,33 +46,7 @@ export const MENU = [
     linkText: 'pivot',
     Icon: Fingerprint,
   },
- 
-   
 ];
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // export const MENU = [
 //   { displayText: 'Organisation', linkText: 'organisation', Icon: Group },

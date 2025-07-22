@@ -1,29 +1,164 @@
 {
   "table": [
-    ["Name", "Region", "Category", "Department", "SubDepartment", "Gender", "SubGender", "Sales"],
-    ["Shruti", "North", "Electronics", "Mobiles", "Smartphones", "Female", "Adult", 100],
-    ["Shruti", "North", "Electronics", "Mobiles", "Smartphones", "Female", "Adult", 100],
-    ["Shruti", "North", "Clothing", "Women", "Ethnic Wear", "Female", "Adult", 80],
-    ["Shruti", "North", "Clothing", "Women", "Western Wear", "Female", "Adult", 90],
-    ["Rashi", "South", "Electronics", "Laptops", "Gaming", "Female", "Teen", 150],
+    [
+      "Name",
+      "Region",
+      "Category",
+      "Department",
+      "SubDepartment",
+      "Gender",
+      "SubGender",
+      "Sales"
+    ],
+    [
+      "Shruti",
+      "North",
+      "Electronics",
+      "Mobiles",
+      "Smartphones",
+      "Female",
+      "Adult",
+      100
+    ],
+    [
+      "Shruti",
+      "North",
+      "Electronics",
+      "Mobiles",
+      "Smartphones",
+      "Female",
+      "Adult",
+      100
+    ],
+    [
+      "Shruti",
+      "North",
+      "Clothing",
+      "Women",
+      "Ethnic Wear",
+      "Female",
+      "Adult",
+      80
+    ],
+    [
+      "Shruti",
+      "North",
+      "Clothing",
+      "Women",
+      "Western Wear",
+      "Female",
+      "Adult",
+      90
+    ],
+    [
+      "Rashi",
+      "South",
+      "Electronics",
+      "Laptops",
+      "Gaming",
+      "Female",
+      "Teen",
+      150
+    ],
     ["Neha", "East", "Clothing", "Men", "Formal", "Female", "Adult", 200],
     ["Sana", "West", "Clothing", "Kids", "Casual", "Female", "Teen", 50],
-    ["Ankit", "North", "Electronics", "Mobiles", "Feature Phones", "Male", "Adult", 300],
-    ["Priya", "South", "Clothing", "Women", "Ethnic Wear", "Female", "Adult", 120],
+    [
+      "Ankit",
+      "North",
+      "Electronics",
+      "Mobiles",
+      "Feature Phones",
+      "Male",
+      "Adult",
+      300
+    ],
+    [
+      "Priya",
+      "South",
+      "Clothing",
+      "Women",
+      "Ethnic Wear",
+      "Female",
+      "Adult",
+      120
+    ],
     ["Amit", "East", "Furniture", "Living Room", "Sofa", "Male", "Adult", 400],
     ["Karan", "West", "Furniture", "Dining", "Tables", "Male", "Teen", 250],
-    ["Ritu", "North", "Electronics", "Laptops", "Ultrabook", "Female", "Adult", 180],
+    [
+      "Ritu",
+      "North",
+      "Electronics",
+      "Laptops",
+      "Ultrabook",
+      "Female",
+      "Adult",
+      180
+    ],
     ["Vikram", "South", "Clothing", "Men", "Casual", "Male", "Adult", 75],
     ["Meena", "East", "Furniture", "Bedroom", "Beds", "Female", "Adult", 500],
-    ["Nisha", "West", "Electronics", "Mobiles", "Smartphones", "Female", "Teen", 90],
+    [
+      "Nisha",
+      "West",
+      "Electronics",
+      "Mobiles",
+      "Smartphones",
+      "Female",
+      "Teen",
+      90
+    ],
     ["Deepak", "North", "Clothing", "Kids", "Casual", "Male", "Teen", 180],
-    ["Ayesha", "South", "Electronics", "Laptops", "Gaming", "Female", "Adult", 210],
+    [
+      "Ayesha",
+      "South",
+      "Electronics",
+      "Laptops",
+      "Gaming",
+      "Female",
+      "Adult",
+      210
+    ],
     ["Rohit", "East", "Furniture", "Dining", "Chairs", "Male", "Adult", 350],
     ["Sahil", "West", "Clothing", "Kids", "Ethnic", "Male", "Teen", 60],
-    ["Isha", "North", "Electronics", "Mobiles", "Smartphones", "Female", "Adult", 275],
+    [
+      "Isha",
+      "North",
+      "Electronics",
+      "Mobiles",
+      "Smartphones",
+      "Female",
+      "Adult",
+      275
+    ],
     ["Raj", "South", "Furniture", "Bedroom", "Beds", "Male", "Adult", 320],
-    ["Anjali", "East", "Clothing", "Women", "Western Wear", "Female", "Teen", 210],
-    ["Kriti", "West", "Electronics", "Mobiles", "Feature Phones", "Female", "Adult", 190],
-    ["Manish", "North", "Furniture", "Living Room", "Sofa", "Male", "Adult", 450]
+    [
+      "Anjali",
+      "East",
+      "Clothing",
+      "Women",
+      "Western Wear",
+      "Female",
+      "Teen",
+      210
+    ],
+    [
+      "Kriti",
+      "West",
+      "Electronics",
+      "Mobiles",
+      "Feature Phones",
+      "Female",
+      "Adult",
+      190
+    ],
+    [
+      "Manish",
+      "North",
+      "Furniture",
+      "Living Room",
+      "Sofa",
+      "Male",
+      "Adult",
+      450
+    ]
   ]
 }
