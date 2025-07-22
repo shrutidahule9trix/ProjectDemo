@@ -11,10 +11,9 @@ export default function PivotTableExample() {
         Count: aggregators["Count"],
 
     Average: aggregators["Average"],
-    Median: aggregators["Median"],
+      Median: aggregators["Median"],
     Minimum: aggregators["Minimum"],
     Maximum: aggregators["Maximum"],
-
 
   };
 
@@ -24,6 +23,10 @@ export default function PivotTableExample() {
     aggregatorName: "Sum",
     vals: ["Sales"],
     rendererName: "Table",
+
+  
+
+
    
 
   });
@@ -56,4 +59,6 @@ export default function PivotTableExample() {
     </div>
   );
 }
+
+
 

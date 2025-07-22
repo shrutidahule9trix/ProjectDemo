@@ -2,8 +2,7 @@
   "table": [
     ["Name", "Region", "Category", "Department", "SubDepartment", "Gender", "SubGender", "Sales"],
     ["Shruti", "North", "Electronics", "Mobiles", "Smartphones", "Female", "Adult", 100],
-        ["Shruti", "North", "Electronics", "Mobiles", "Smartphones", "Female", "Adult", 100],
-
+    ["Shruti", "North", "Electronics", "Mobiles", "Smartphones", "Female", "Adult", 100],
     ["Shruti", "North", "Clothing", "Women", "Ethnic Wear", "Female", "Adult", 80],
     ["Shruti", "North", "Clothing", "Women", "Western Wear", "Female", "Adult", 90],
     ["Rashi", "South", "Electronics", "Laptops", "Gaming", "Female", "Teen", 150],
@@ -12,10 +11,7 @@
     ["Ankit", "North", "Electronics", "Mobiles", "Feature Phones", "Male", "Adult", 300],
     ["Priya", "South", "Clothing", "Women", "Ethnic Wear", "Female", "Adult", 120],
     ["Amit", "East", "Furniture", "Living Room", "Sofa", "Male", "Adult", 400],
-   
-   
-   
- ["Karan", "West", "Furniture", "Dining", "Tables", "Male", "Teen", 250],
+    ["Karan", "West", "Furniture", "Dining", "Tables", "Male", "Teen", 250],
     ["Ritu", "North", "Electronics", "Laptops", "Ultrabook", "Female", "Adult", 180],
     ["Vikram", "South", "Clothing", "Men", "Casual", "Male", "Adult", 75],
     ["Meena", "East", "Furniture", "Bedroom", "Beds", "Female", "Adult", 500],
