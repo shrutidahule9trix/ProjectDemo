@@ -1,5 +1,7 @@
-import Pivot from "../../Organisms/Pivot/Pivot";
+/** @format */
 
-export default function PivotPage(){
-return <Pivot/>
+import Pivot from '../../Organisms/Pivot/Pivot';
+
+export default function PivotPage() {
+  return <Pivot />;
 }

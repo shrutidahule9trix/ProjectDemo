@@ -11,6 +11,7 @@ function PaperBox({ elevations = [20, 0, 8] }) {
         sx={{
           display: 'flex',
           flexWrap: 'wrap',
+          Color: "pink",
           '& > :not(style)': { m: 1, width: 128, height: 128 },
         }}
       >

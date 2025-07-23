@@ -10,5 +10,5 @@ export const fetchPivotTable = async () => {
     return []; 
   }
 };
-
+ 
                      
