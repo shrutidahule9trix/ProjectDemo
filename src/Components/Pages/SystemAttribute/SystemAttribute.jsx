@@ -1,9 +1,11 @@
 /** @format */
 
-import React from 'react';
+import * as React from 'react';
+;
 
 function SystemAttribute() {
-  return <div>SystemAttribute</div>;
+  
+  return <h2>SystemAttribute</h2>;
 }
-
 export default SystemAttribute;
+
