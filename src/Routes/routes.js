@@ -18,6 +18,7 @@ const router = createBrowserRouter(
         <Route path="/organisation" element={<Organisation />} />
         <Route path="/add-user" element={<AddUser />} />
         <Route path="/system-attribute" element={<SystemAttribute />} />
+        {/* <Route path="/bench-mark" element={</>} /> */}
       </Route>
       <Route path="/login" element={<LoginPage />} />
     </>
