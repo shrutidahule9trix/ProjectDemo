@@ -1,0 +1,117 @@
+{
+  "carddata": [
+    {
+      "id": 1,
+      "title": "Movie 1",
+      "description": "An action-packed thriller full of unexpected twists.",
+      "genre": "Action",
+      "year": 2023,
+      "imageURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLGB4FDaRX9jtM5nmRl3bkyDauyI12ToO0Ug&s"
+    },
+    {
+      "id": 2,
+      "title": "Card Title 2",
+      "description": "A touching drama about friendship and sacrifice.",
+      "genre": "Drama",
+      "year": 2022,
+      "imageURL": "https://www.lemon8-app.com/seo/image?item_id=7478320179819069970&index=5&sign=abc6cd681372094b41617dffd3560b48"
+    },
+    {
+      "id": 3,
+      "title": "Card Title 3",
+      "description": "Discover the secrets of the ocean in this documentary.",
+      "genre": "Documentary",
+      "year": 2021,
+      "imageURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKYCnjz6xShbrtPnCqEHbLDbScRz6ZnL7sTg&s"
+    },
+    {
+      "id": 4,
+      "title": "Card Title 4",
+      "description": "A comedy that will make you laugh and cry.",
+      "genre": "Drama",
+      "year": 2020,
+      "imageURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRC1BpcizthjbAeBKWBbYqmWA9Zr6Fxm8-LSA&s"
+    },
+    {
+      "id": 5,
+      "title": "Card Title 5",
+      "description": "Space exploration like you've never seen before.",
+      "genre": "Sci-Fi",
+      "year": 2024,
+      "imageURL": "https://media.hswstatic.com/eyJidWNrZXQiOiJjb250ZW50Lmhzd3N0YXRpYy5jb20iLCJrZXkiOiJnaWZcL01hcnMtb3BwdHkuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo4Mjh9fX0="
+    },
+    {
+      "id": 6,
+      "title": "Adventure Quest",
+      "description": "Follow the journey of a hero through wild lands.",
+      "genre": "Adventure",
+      "year": 2019,
+      "imageURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQN2dYb-7InZVcbTCLKXzOWAZcPDuLh2aAmBA&s"
+    },
+    {
+      "id": 7,
+      "title": "The Animal World",
+      "description": "A deep dive into the wild with amazing visuals.",
+      "genre": "Documentary",
+      "year": 2023,
+      "imageURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSC8a8SquUPmnypT-jV0yifoi-Vn3ja38EFHA&s"
+    },
+    {
+      "id": 8,
+      "title": "City Lights",
+      "description": "Urban stories wrapped in emotional depth.",
+      "genre": "Drama",
+      "year": 2021,
+      "imageURL": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1174584320i/419399.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Laugh Out Loud",
+      "description": "A comedy filled with hilarious moments.",
+      "genre": "Comedy",
+      "year": 2022,
+      "imageURL": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgftrZI4uXF_Am-negBj4M5dHBXEHYPwzScPAgk9Q540u_zC0-CI41jHgXLKCJu0yBCdkOVXHWSbPQkkr4Z2Y36MPvyycuOru6DBKGVbkK-JhkQrRIEckELNVaIz3ef6TB20cJxmCwdFMAy8BXms3yKzNcdVIM6ujsyZz_91yPihESxMH_n-BX2wbxpX2gA/s415/LOL.png"
+    },
+    {
+      "id": 10,
+      "title": "Dark Truth",
+      "description": "Mystery and suspense that keeps you on edge.",
+      "genre": "Thriller",
+      "year": 2023,
+      "imageURL": "https://m.media-amazon.com/images/I/81t1amTiubL._UF1000,1000_QL80_.jpg"
+    },
+    
+    {
+      "id": 11,
+      "title": "Future Wars",
+      "description": "Futuristic battles between humans and AI.",
+      "genre": "Sci-Fi",
+      "year": 2025,
+      "imageURL": "https://robots.army/assets/2025-03-01-Humanitys_battle_for_relevance.png"
+    },
+    {
+      "id": 12,
+      "title": "Haunted Mansion",
+      "description": "A family trapped in a haunted house.",
+      "genre": "Horror",
+      "year": 2021,
+      "imageURL": "https://cdn.hmv.com/r/w-640/hmv/files/8f/8f8ef92a-5fe2-428d-8d48-eb7e76e1fd75.jpg"
+    },
+    {
+      "id": 13,
+      "title": "The Enchanted Forest",
+      "description": "Magic, creatures, and fantasy adventures await.",
+      "genre": "Fantasy",
+      "year": 2022,
+      "imageURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNTD0oL42wps6sITb5kbThbLZFKAoG3EKukw&s"
+    },
+    {
+      "id": 14,
+      "title": "Life of a Legend",
+      "description": "The inspiring life story of a sports icon.",
+      "genre": "Biography",
+      "year": 2023,
+      "imageURL": "https://m.media-amazon.com/images/I/718F8EVogRL._UF350,350_QL80_.jpg"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 /** @format */
 
 function DataTree() {
-  return <div>Organisation</div>;
-}
+  return }
 
 export default DataTree;
+ 

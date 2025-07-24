@@ -43,7 +43,7 @@ export const MENU = [
   },
   {
     displayText: 'Bench Mark',
-    linkText: 'bench-mark',
+    linkText: 'Card-data',
     Icon: Group,
   },
 ];

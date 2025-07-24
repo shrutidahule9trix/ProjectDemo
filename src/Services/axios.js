@@ -1,21 +1,9 @@
-/** @format */
+/* @format */
 
 import axios from 'axios';
 
 const axiosInstance = axios.create({
-  // eslint-disable-next-line no-undef
-  baseURL: process.env.REACT_APP_DOMAIN,
+  baseURL: 'http://localhost:5000',
 });
-
-axiosInstance.interceptors.request.use(interceptor, networkError);
-function interceptor(config) {
-  config.data['Client_Id'] = localStorage.getItem('clientID');
-  config.data['Domain_Id'] = localStorage.getItem('domainID');
-  return config;
-}
-
-function networkError(error) {
-  return Promise.reject(error);
-}
 
 export default axiosInstance;
