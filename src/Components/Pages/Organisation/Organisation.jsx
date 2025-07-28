@@ -1,7 +1,7 @@
 /** @format */
 
 function DataTree() {
-  return <div>pune</div>;
+  return <div>This is an Organisation Page</div>;
 }
 
 export default DataTree;
