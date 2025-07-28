@@ -1,0 +1,7 @@
+{
+  "parameters": {
+    "Area": ["Agra", "Delhi", "Bangalore"],
+    "Bill Sr No": ["001", "002", "003"],
+    "Branch": ["North", "South"]
+  }
+}

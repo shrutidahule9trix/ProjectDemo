@@ -1,55 +1,112 @@
 /** @format */
 
 import React, { useEffect, useState } from 'react';
-import { fetchCardTable } from '../../../Services/CardServices';
+import {
+  fetchAttributes,
+  fetchAttributeValues,
+} from '../../../Services/CardServices';
 import styles from './card.module.css';
 
 const Cards = () => {
+  const [attributes, setAttributes] = useState([]);
+  const [selectedParam, setSelectedParam] = useState('');
+  const [paramValues, setParamValues] = useState([]);
+  const [selectedValue, setSelectedValue] = useState('');
   const [cards, setCards] = useState([]);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState(null);
 
   useEffect(() => {
-    const getCards = async () => {
-      try {
-        const data = await fetchCardTable();
-        setCards(data?.carddata || []);
-      } catch (err) {
-        setError(err.message || 'Something went wrong');
-      } finally {
-        setLoading(false);
-      }
+    const payload = {
+      Client_Id: 20,
+      Domain_Id: 9,
     };
 
-    getCards();
+    fetchAttributes(payload)
+      .then(setAttributes)
+      .catch(console.error);
   }, []);
 
-  if (loading) return <p>Loading...</p>;
-  if (error) return <p>Error: {error}</p>;
+  useEffect(() => {
+    if (selectedParam) {
+      fetchAttributeValues({ attribute_name: selectedParam })
+        .then(setParamValues)
+        .catch(() => setParamValues([]));
+    } else {
+      setParamValues([]);
+    }
+  }, [selectedParam]);
+
+  const handleFilter = () => {
+    if (selectedParam && selectedValue) {
+      setCards([
+        {
+          param: selectedParam,
+          value: selectedValue,
+        },
+      ]);
+    }
+  };
+
+  const clearFilters = () => {
+    setSelectedParam('');
+    setSelectedValue('');
+    setCards([]);
+  };
 
   return (
-    <div className={styles.cardContainer}>
-      {cards.length === 0 ? (
-        <p>No cards to display.</p>
-      ) : (
-        cards.map((card) => (
-          <div key={card.id} className={styles.card}>
-            <img
-              src={card.imageURL}
-              alt={card.title}
-              className={styles.cardImage}
-            />
-            <h3 className={styles.cardTitle}>{card.title}</h3>
-            <p className={styles.cardDescription}>{card.description}</p>
-            <p className={styles.cardMeta}>
-              <strong>Genre:</strong> {card.genre}
-            </p>
-            <p className={styles.cardMeta}>
-              <strong>Year:</strong> {card.year}
-            </p>
+    <div className={styles.container}>
+      <h4>FILTERS</h4>
+
+      <div className={styles.row}>
+        <select
+          className={styles.dropdown}
+          value={selectedParam}
+          onChange={(e) => {
+            setSelectedParam(e.target.value);
+            setSelectedValue('');
+          }}
+        >
+          <option value="">Parameter</option>
+          {attributes.map((attr, i) => {
+            const key = Object.keys(attr)[0];
+            const label = attr[key];
+            return (
+              <option key={i} value={key}>
+                {label}
+              </option>
+            );
+          })}
+        </select>
+
+        <select
+          className={styles.dropdown}
+          value={selectedValue}
+          onChange={(e) => setSelectedValue(e.target.value)}
+          disabled={!paramValues.length}
+        >
+          <option value="">Select Value</option>
+          {paramValues.map((val, i) => (
+            <option key={i} value={val}>
+              {val}
+            </option>
+          ))}
+        </select>
+
+        <button className={styles.filterBtn} onClick={handleFilter}>
+          FILTER
+        </button>
+        <button className={styles.clearBtn} onClick={clearFilters}>
+          CLEAR
+        </button>
+      </div>
+
+      <div className={styles.cardContainer}>
+        {cards.map((card, index) => (
+          <div key={index} className={styles.card}>
+            <h3>{card.param}</h3>
+            <p>{card.value}</p>
           </div>
-        ))
-      )}
+        ))}
+      </div>
     </div>
   );
 };
